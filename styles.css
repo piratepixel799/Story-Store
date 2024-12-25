@@ -120,3 +120,61 @@ footer {
   background: #2e2e3a;
   color: white;
 }
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* New navbar and section styles */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Other section styles */
+#home {
+    background-color: #f4f4f4;
+}
+
+#shop {
+    background-color: #e2e2e2;
+}
+
+#about {
+    background-color: #d1d1d1;
+}
+
+#contact {
+    background-color: #b0b0b0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
